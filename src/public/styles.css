@@ -120,3 +120,78 @@ h2 {
     position: relative;
     right: 4px;
 }
+
+
+/* CARD PRODUCT */
+.h2-prods {
+    color: black;
+    margin-top: 2rem;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    border: 1px solid;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    row-gap: 1rem;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid black;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-title {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.card-description {
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.card-category {
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.card-price {
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.card-stock {
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.card-btn {
+    border: solid 1px black;
+    font-size: 1.2rem;
+    background-color: black;
+    padding: 0.45rem;
+    color: white;
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "id": "d42f1ee1-c96e-47eb-abed-f2e4c936ce6f",
+        "title": "Dior Sauvage EDP",
+        "description": "100ml",
+        "price": 240000,
+        "status": true,
+        "stock": 10,
+        "category": "Dior"
+    },
+    {
+        "id": "7a3d9ccd-5148-471a-a6c4-888fc82b1363",
+        "title": "Dior Sauvage EDT",
+        "description": "100ml",
+        "price": 180000,
+        "status": true,
+        "stock": 15,
+        "category": "Dior"
+    }
+]

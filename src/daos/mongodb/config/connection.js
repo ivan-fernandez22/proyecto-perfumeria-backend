@@ -1,6 +1,7 @@
 import {connect} from "mongoose";
+import 'dotenv/config'
 
-const connectionString = 'mongodb+srv://Admin:y0IHY9LQhldaMPIs@ivancluster.ruow6ge.mongodb.net/velvetPerfumerie?retryWrites=true&w=majority&appName=IvanCluster'
+const connectionString = process.env.MONGO_URL;
 
 export const initMongoDB = async () => {
     try {
