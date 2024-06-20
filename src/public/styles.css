@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    background-color: #F8F8FF;
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 14px;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-size: 1.5rem;
+}
+
+
+/* VISTA PRINCIPAL */
+main {
+    text-align: center;
+}
+
+.portada {
+    width: 100vw;
+    height: 90vh;
+}
+
+.section-pagos {
+    margin-top: 2rem;
+}
+
+h2 {
+    color: black;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.medios-de-pago {
+    width: 60vw;
+    height: 20vh;
+}
+
+.textos {
+    font-family: Helvetica, sans-serif;
+    color: black;
+    font-size: 1.4rem;
+}
+
+/*NEWSLETTER*/
+.section-newsletter {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    background-color: #F5F5F5;
+}
+
+.div-mensaje-newsletter {
+    width: 30%;
+    margin-top: 1rem;
+}
+
+.titulo-newsletter {
+    color: black;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-newsletter {
+    font-family: Helvetica, sans-serif;
+    color: black;
+    font-size: 1rem;
+}
+
+.form-newsletter {
+    padding: 2rem;
+    margin-top: 10px;
+}
+
+.input-newsletter {
+    border: solid 2px black;
+    font-size: 1.2rem;
+    padding: 0.4rem;
+}
+
+.boton-enviar {
+    border: solid 1px black;
+    font-size: 1.2rem;
+    background-color: black;
+    padding: 0.45rem;
+    color: white;
+    position: relative;
+    right: 4px;
+}
